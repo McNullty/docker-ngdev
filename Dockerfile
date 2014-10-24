@@ -14,13 +14,13 @@ RUN gem install sass &&\
   gem install compass
 
 # Installing Yeoman
-RUN npm install --global yo bower grunt-cli generator-webapp generator-angular
+RUN npm install --global yo bower grunt-cli generator-angular
 
 RUN adduser --disabled-password --home=/home/yeoman --gecos "" yeoman
 
 ENV HOME /home/yeoman
 USER yeoman
-WORKDIR /home/yeoman
+WORKDIR /home/yeoman/app
 
 # Expose the port
 EXPOSE 9000
