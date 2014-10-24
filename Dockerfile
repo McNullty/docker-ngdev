@@ -23,6 +23,6 @@ USER yeoman
 WORKDIR /home/yeoman/app
 
 # Expose the port
-EXPOSE 9000
+EXPOSE 9000 9001 35729
 
 CMD ["/bin/bash"]
