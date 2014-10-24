@@ -1,7 +1,9 @@
 docker-ngdev
 ============
 
-Run container with `docker run --rm -i -t -p 9000:9000 -v <host-directory-for-app>:/home/yeoman/app --name ngdev mcnullty/docker-ngdev`
+Run container with `docker run --rm -i -t -p 9000:9000 -p 35729:35729 -v <host-directory-for-app>:/home/yeoman/app --name ngdev mcnullty/docker-ngdev`
+
+Port 35729 is exposed for live reload and is set in Gruntfile.js
 
 Angular App [Yeoman tutorial][1]
 =======
