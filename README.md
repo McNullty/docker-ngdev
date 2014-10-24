@@ -3,7 +3,7 @@ docker-ngdev
 
 Run container with `docker run --rm -i -t -p 9000:9000 -v <host-directory-for-app>:/home/yeoman/app --name ngdev mcnullty/docker-ngdev`
 
-Angular App [Yeoman ][1]
+Angular App [Yeoman tutorial][1]
 =======
 
 First run angular generator `yo angular`
